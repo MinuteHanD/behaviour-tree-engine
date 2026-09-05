@@ -195,11 +195,11 @@ func main() {
 		escaped, _ := blackboard.Get[bool](board, "escaped")
 
 		if busted {
-			fmt.Println("\n--- OUTCOME: THIEF WAS BUSTED! JUSTICE PREVAILS. ---")
+			fmt.Println("\n--- OUTCOME: THIEF WAS BUSTED")
 			break
 		}
 		if escaped {
-			fmt.Println("\n--- OUTCOME: THIEF ESCAPED WITH THE LOOT! THE PERFECT CRIME. ---")
+			fmt.Println("\n--- OUTCOME: THIEF ESCAPED WITH THE LOOT")
 			break
 		}
 
